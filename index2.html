@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+
+
+@@include('grunt_includes/_head.html', {"pageName": "index"})
+<body>
+	<div id="wrapper">
+		<div id="container">    
+			@@include('grunt_includes/_menu.html', {"pageName": "index"})
+
+			<div style="overflow: hidden; width: 722px; margin-top: 205px; margin-left: 115px; background-color: white !important;">
+				<div id="fooImg"
+					style="background-position: 0px 0px; width: 722px; height: 300px; 
+					abackground-size: 722px 162px; 
+					background-size: 1334px 300px;
+					padding-left: 0px; 
+					padding-top: 0px; background-image: url('./img/website_fotos/Gruppenfoto Banner/final_resized.jpg');
+					border-radius: 10px;
+					border-style: none;
+					#box-shadow: inset 10px 12px 12px 11px #CCC;
+					">
+				</div>
+			</div>
+			<script>
+		//		alert($('#fooImg').size() + "!!");
+				var i = 0;
+				var fadeInOut = function() {
+					$("#fooImg")
+						.animate({
+							'background-position' : '-=100px'
+						}, 
+						1000, 
+						function() { 
+							setTimeout(function() { return fadeInOut(); }, 3000); 
+						}
+					);
+				};
+				
+			
+				fadeInOut();
+
+			</script>
+	
+	   </div>
+
+	   @@include('grunt_includes/_footer.html', {"pageName": "index"})
+	</div>
+</body>
+</html>

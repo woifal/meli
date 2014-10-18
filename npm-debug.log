@@ -1,0 +1,157 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\private\\nodejs\\node.exe',
+1 verbose cli   'd:\\private\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '–g',
+1 verbose cli   'grunt-cli' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 warn package.json example-project@0.1.0 No description
+5 warn package.json example-project@0.1.0 No repository field.
+6 warn package.json example-project@0.1.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ '–g', null ]
+9 verbose cache add name=undefined spec="–g" args=["–g",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '–g',
+10 verbose parsed url   path: '–g',
+10 verbose parsed url   href: '–g' }
+11 verbose cache add [ 'grunt-cli', null ]
+12 verbose cache add name=undefined spec="grunt-cli" args=["grunt-cli",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'grunt-cli',
+13 verbose parsed url   path: 'grunt-cli',
+13 verbose parsed url   href: 'grunt-cli' }
+14 silly lockFile 51e00793-g –g
+15 verbose lock –g d:\PRIVATE\nodejs\npm_home\npm-cache\51e00793-g.lock
+16 silly lockFile 671ef8ac-grunt-cli grunt-cli
+17 verbose lock grunt-cli d:\PRIVATE\nodejs\npm_home\npm-cache\671ef8ac-grunt-cli.lock
+18 silly lockFile 51e00793-g –g
+19 silly lockFile 51e00793-g –g
+20 silly lockFile 671ef8ac-grunt-cli grunt-cli
+21 silly lockFile 671ef8ac-grunt-cli grunt-cli
+22 verbose addNamed [ '–g', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 72e0e7f9-g –g@
+25 verbose lock –g@ d:\PRIVATE\nodejs\npm_home\npm-cache\72e0e7f9-g.lock
+26 verbose addNamed [ 'grunt-cli', '' ]
+27 verbose addNamed [ null, '*' ]
+28 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+29 verbose lock grunt-cli@ d:\PRIVATE\nodejs\npm_home\npm-cache\d63f3d0b-grunt-cli.lock
+30 silly addNameRange { name: '–g', range: '*', hasData: false }
+31 silly addNameRange { name: 'grunt-cli', range: '*', hasData: false }
+32 verbose url raw –g
+33 verbose url resolving [ 'https://registry.npmjs.org/', './%E2%80%93g' ]
+34 verbose url resolved https://registry.npmjs.org/%E2%80%93g
+35 info trying registry request attempt 1 at 20:22:05
+36 http GET https://registry.npmjs.org/%E2%80%93g
+37 verbose url raw grunt-cli
+38 verbose url resolving [ 'https://registry.npmjs.org/', './grunt-cli' ]
+39 verbose url resolved https://registry.npmjs.org/grunt-cli
+40 info trying registry request attempt 1 at 20:22:05
+41 verbose etag "BNILZ9J1NTWZYUS8HRT5S3TNV"
+42 http GET https://registry.npmjs.org/grunt-cli
+43 http 304 https://registry.npmjs.org/grunt-cli
+44 silly registry.get cb [ 304,
+44 silly registry.get   { date: 'Thu, 02 Oct 2014 18:22:06 GMT',
+44 silly registry.get     server: 'Apache',
+44 silly registry.get     via: '1.1 varnish',
+44 silly registry.get     'last-modified': 'Thu, 02 Oct 2014 18:22:06 GMT',
+44 silly registry.get     'cache-control': 'max-age=60',
+44 silly registry.get     etag: '"BNILZ9J1NTWZYUS8HRT5S3TNV"',
+44 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+44 silly registry.get     'x-cache': 'HIT',
+44 silly registry.get     'x-cache-hits': '1',
+44 silly registry.get     'x-timer': 'S1412274126.155144,VS0,VE0',
+44 silly registry.get     vary: 'Accept',
+44 silly registry.get     'content-length': '0',
+44 silly registry.get     'keep-alive': 'timeout=10, max=50',
+44 silly registry.get     connection: 'Keep-Alive' } ]
+45 verbose etag grunt-cli from cache
+46 silly addNameRange number 2 { name: 'grunt-cli', range: '*', hasData: true }
+47 silly addNameRange versions [ 'grunt-cli',
+47 silly addNameRange   [ '0.1.0',
+47 silly addNameRange     '0.1.1',
+47 silly addNameRange     '0.1.2',
+47 silly addNameRange     '0.1.3',
+47 silly addNameRange     '0.1.4',
+47 silly addNameRange     '0.1.5',
+47 silly addNameRange     '0.1.6',
+47 silly addNameRange     '0.1.7',
+47 silly addNameRange     '0.1.8',
+47 silly addNameRange     '0.1.9',
+47 silly addNameRange     '0.1.10',
+47 silly addNameRange     '0.1.11',
+47 silly addNameRange     '0.1.12',
+47 silly addNameRange     '0.1.13' ] ]
+48 verbose addNamed [ 'grunt-cli', '0.1.13' ]
+49 verbose addNamed [ '0.1.13', '0.1.13' ]
+50 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+51 verbose lock grunt-cli@0.1.13 d:\PRIVATE\nodejs\npm_home\npm-cache\28997503-grunt-cli-0-1-13.lock
+52 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+53 silly lockFile 28997503-grunt-cli-0-1-13 grunt-cli@0.1.13
+54 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+55 silly lockFile d63f3d0b-grunt-cli grunt-cli@
+56 http 404 https://registry.npmjs.org/%E2%80%93g
+57 verbose headers { date: 'Thu, 02 Oct 2014 18:22:06 GMT',
+57 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+57 verbose headers   'content-type': 'application/json',
+57 verbose headers   'cache-control': 'max-age=0',
+57 verbose headers   'content-length': '52',
+57 verbose headers   'accept-ranges': 'bytes',
+57 verbose headers   via: '1.1 varnish',
+57 verbose headers   age: '0',
+57 verbose headers   'x-served-by': 'cache-fra1225-FRA',
+57 verbose headers   'x-cache': 'MISS',
+57 verbose headers   'x-cache-hits': '0',
+57 verbose headers   'x-timer': 'S1412274126.172396,VS0,VE105',
+57 verbose headers   'keep-alive': 'timeout=10, max=50',
+57 verbose headers   connection: 'Keep-Alive' }
+58 silly registry.get cb [ 404,
+58 silly registry.get   { date: 'Thu, 02 Oct 2014 18:22:06 GMT',
+58 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+58 silly registry.get     'content-type': 'application/json',
+58 silly registry.get     'cache-control': 'max-age=0',
+58 silly registry.get     'content-length': '52',
+58 silly registry.get     'accept-ranges': 'bytes',
+58 silly registry.get     via: '1.1 varnish',
+58 silly registry.get     age: '0',
+58 silly registry.get     'x-served-by': 'cache-fra1225-FRA',
+58 silly registry.get     'x-cache': 'MISS',
+58 silly registry.get     'x-cache-hits': '0',
+58 silly registry.get     'x-timer': 'S1412274126.172396,VS0,VE105',
+58 silly registry.get     'keep-alive': 'timeout=10, max=50',
+58 silly registry.get     connection: 'Keep-Alive' } ]
+59 silly lockFile 72e0e7f9-g –g@
+60 silly lockFile 72e0e7f9-g –g@
+61 error 404 404 Not Found: %E2%80%93g
+61 error 404
+61 error 404 '%E2%80%93g' is not in the npm registry.
+61 error 404 You should bug the author to publish it
+61 error 404 It was specified as a dependency of 'example-project'
+61 error 404
+61 error 404 Note that you can also install from a
+61 error 404 tarball, folder, or http url, or git url.
+62 error System Windows_NT 6.1.7601
+63 error command "d:\\private\\nodejs\\node.exe" "d:\\private\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "–g" "grunt-cli"
+64 error cwd d:\PRIVATE\MELI\httpdocs\work
+65 error node -v v0.10.28
+66 error npm -v 1.4.9
+67 error code E404
+68 verbose exit [ 1, true ]
