@@ -13,7 +13,7 @@ grunt.initConfig({
 				// Files to perform replacements and includes with
 				src: ['*.html', "*.xml"],
 				// Destination directory to copy files to
-				dest: '../live/'
+				dest: 'dist/'
 			}
 		},
 		copy: {
@@ -21,12 +21,12 @@ grunt.initConfig({
 				expand: true,
 				//flatten: true,
 				files: [
-					{ src: ["js/*", "js/**/*"], dest:"../live/" }
-					,{ src: ["js/*"], dest:"../live/" }
-					,{ src: ["css/*","css/**/*"],  dest:"../live/" }
-					,{ src: ["img/*", "img/**/*"] , dest:"../live/" }
-					,{ src: ["lightbox/*", "lightbox/**/*"] , dest:"../live/" }
-					,{ src: ["flexslider/*", "flexslider/**/*"] , dest:"../live/" }
+					{ src: ["js/*", "js/**/*"], dest:"dist/" }
+					,{ src: ["js/*"], dest:"dist/" }
+					,{ src: ["css/*","css/**/*"],  dest:"dist/" }
+					,{ src: ["img/*", "img/**/*"] , dest:"dist/" }
+					,{ src: ["lightbox/*", "lightbox/**/*"] , dest:"dist/" }
+					,{ src: ["flexslider/*", "flexslider/**/*"] , dest:"dist/" }
 				]
 			}
 		}
