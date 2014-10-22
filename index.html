@@ -1,18 +1,32 @@
 @@include('grunt_includes/_pageheader.html', {"pageName": "index"})
 
-			<div id="banner">
+<div class="page_content_main">
+
+<div class="page_content_fullwidth">
+	<div class="left"></div>
+	<div class="right"></div>
+	<div class="middle">
+			<div class="banner">
 				<div id="fooImg"
-					style="background-position: 0px 0px; width: 722px; height: 300px; 
-					abackground-size: 722px 162px; 
+					style="
+					background-position: 0px 0px; 
+					width: 100%; 
+					height: 100%;
 					background-size: 1334px 300px;
 					padding-left: 0px; 
-					padding-top: 0px; background-image: url('./img/website_fotos/Gruppenfoto Banner/final_resized.jpg');
-					border-radius: 10px;
-					border-style: none;
+					padding-top: 0px; 
+					background-image: url('./img/website_fotos/Gruppenfoto Banner/final_resized.jpg');
+					aborder-radius: 10px;
+					aborder: 1px solid green;
 					#box-shadow: inset 10px 12px 12px 11px #CCC;
+					background-repeat: repeat-x;
 					">
 				</div>
 			</div>
+	</div>
+</div>
+
+
 			<script>
 		//		alert($('#fooImg').size() + "!!");
 				var i = 0;
@@ -33,4 +47,6 @@
 
 			</script>
 
-@@include('grunt_includes/_pagefooter.html', {"pageName": "index"})
+<div style="clear: both"></div>
+</div>
+		@@include('grunt_includes/_pagefooter.html', {"pageName": "links"})

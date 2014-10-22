@@ -1,23 +1,30 @@
 @@include('grunt_includes/_pageheader.html', {"pageName": "kosten"})
 
-	<div id="imgs_left">
-<!-- Place somewhere in the <body> of your page -->
-<div class="flexslider">
-  <ul class="slides">
-<li><img src="./img/website_fotos/Praxis/resized/IMG_1867.JPG" alt="Galpic1" /></li>
-	</ul>
-</div>	
+
+<div class="page_content_main">
+
+<div class="page_content_left">
+	<div class="left"></div>
+	<div class="middle">
+<img src="./img/website_fotos/Praxis/resized/IMG_1867.JPG" alt="Galpic1"  style="padding-top: 10px; width: 370px; height: 290px;"/>
+
+
+
 	</div>
-	
+	<div class="right"></div>
+</div>
 
 <script>
   $('.flexslider').flexslider({
     animation: "slide"
-	,smoothHeight: true
   });
 </script>	
-    <div id="text">
-		<h1>KOSTEN</h1>
+
+<div class="page_content_right">
+	<div class="right"></div>
+	<div class="text">
+	<div><h1>KOSTEN</h1></div>
+
 <ul style="margin-left: 40px;">
 	<li>
 		<h2>Voraussetzungen für eine logopädische Therapie</h2>
@@ -52,6 +59,10 @@
 </ul>
 
 
-		</div>
+	</div>
+</div>
 
-		@@include('grunt_includes/_pagefooter.html', {"pageName": "kosten"})
+
+<div style="clear: both"></div>
+</div>
+		@@include('grunt_includes/_pagefooter.html', {"pageName": "praxis"})

@@ -1,6 +1,11 @@
 @@include('grunt_includes/_pageheader.html', {"pageName": "praxis"})
 
-	<div id="imgs_left">
+<div class="page_content_main">
+
+<div class="page_content_left">
+	<div class="left"></div>
+	<div class="middle">
+	
 <!-- Place somewhere in the <body> of your page -->
 <div class="flexslider">
   <ul class="slides">
@@ -12,17 +17,23 @@
 <li><img src="./img/website_fotos/Praxis/resized/IMG_1904.JPG" alt="Galpic1" /></li>
 <li><img src="./img/website_fotos/Praxis/resized/IMG_1917.JPG" alt="Galpic1" /></li>
 	</ul>
-</div>	
+</div>
+
 	</div>
-	
+	<div class="right"></div>
+</div>
 
 <script>
   $('.flexslider').flexslider({
     animation: "slide"
   });
 </script>	
-    <div id="text">
-		<h1>PRAXIS</h1>
+
+<div class="page_content_right">
+	<div class="right"></div>
+	<div class="text">
+	<div><h1>PRAXIS</h1></div>
+
 
 <p>
 Die logopädische Praxis befindet sich im Gesundheitsdienstleistungszentrum MED 22 (Stadlau, 1220 Wien), in den Ordinationsräumlichkeiten von Hals-Nasen-Ohren-Arzt & Phoniater Dr. Michael Dialer (www.hno-dialer.at).
@@ -31,6 +42,12 @@ Das MED 22 wurde im Oktober 2013 eröffnet und ist sowohl mit den öffentlichen 
 </p><br><p>
 Die Praxis bietet viel Platz um den Anforderungen einer logopädischen Therapie gerecht zu werden.
 </p>	
-	</div>
 
+
+	</div>
+</div>
+
+
+<div style="clear: both"></div>
+</div>
 		@@include('grunt_includes/_pagefooter.html', {"pageName": "praxis"})
