@@ -24,29 +24,54 @@
 	<div class="right"></div>
 	<div class="text">
 	<div><h1>KONTAKT</h1></div>
-	
-
 	<p>
 		Die logopädische Praxis befindet sich im Gesundheitsdienstleistungszentrum MED 22 – in den Ordinationsräumlichkeiten von Dr. Michael Dialer (HNO-Arzt & Phoniater, www.hno-dialer.at). 
-</p><br><p>
-<p>
+	</p>
+	<br>
+	<p>
 		Das MED 22 ist sowohl öffentlich (U-Bahn U2 [Station Stadlau], S-Bahnen S7 und S80 [Station Erzherzog-Karl-Straße], Straßenbahnlinie 26 [z.B. von U-Bahn Kagran] und Buslinien 86A, 87A & 95B), als auch mit dem Kfz (Patientenparkplatz vorhanden) optimal erreichbar.
-</p><br><p>
-<p>Ich freue mich über Ihre Kontaktaufnahme!
-</p><br><p>
-<p>
-<ul style="margin-left: 40px;">
-<li>email: <a href="mailto:praxis@logopaedie-dornstauder.at">praxis@logopaedie-dornstauder</a></li>
-<li>tel: <a href="tel:00436604745791">+43 660/4745791</a></li>
-<li>facebook: <a href="#">Facebook</a></li>
-</ul>
-<br><br>
-Melanie Dornstauder, BSc<br>
-Logopädin<br>
-MED 22<br>
-Stadlauerstraße 62/9<br>
-1220 Wien<br>
-</p>
+	</p>
+	<br>
+	<p>Ich freue mich über Ihre Kontaktaufnahme:</p>
+	<br>
+	<form 
+		style="
+			border: 1px solid grey;
+			padding: 5px;
+			font-family:arial, sans-serif; 
+		" action="https://meliserver.herokuapp.com/sendmail">
+		<div style="float:left; width: 49%">
+			<input type="hidden" name="to" value="wolfgang.dietersdorfer@drei.com"/>
+			<p style="width: 100px;">Name:<input name="from" type="text"/></p>
+			<p style="width: 100px;">Email:<input name="body" type="text"/></p>
+			<p style="width: 100px;">Telefon:<input name="body" type="text"/></p>
+			<p style="width: 100px;">Betreff:<input name="subject" type="text"/></p>
+		</div>
+		<div style="float:left; width: 49%">
+			<textarea style="font-family:arial, sans-serif; width: 100%; height: 120px; font-size: 0.9em;" name="body" type="text">Nachricht</textarea>
+			<input style="width: 100%; font-family:arial, sans-serif;" type="submit" value="Abschicken!"/>
+		</div>
+		<div style="clear: both;"></div>
+	</form>
+	<br>
+	<p>Oder via:</p>
+	<br>
+	<p>
+		<ul style="margin-left: 40px;">
+		<li>email: <a href="mailto:praxis@logopaedie-dornstauder.at">praxis@logopaedie-dornstauder</a></li>
+		<li>tel: <a href="tel:00436604745791">+43 660/4745791</a></li>
+		<li>facebook: <a href="#">Facebook</a></li>
+		</ul>
+		<br>
+	</p>
+	<br>
+	<p>
+		Melanie Dornstauder, BSc<br>
+		Logopädin<br>
+		MED 22<br>
+		Stadlauerstraße 62/9<br>
+		1220 Wien<br>
+	</p>
 
 
 	</div>
