@@ -249,7 +249,7 @@ h2 {
 
 
 .text > *{
-	font-size: 1em;/*0.785em*/;
+	font-size: 0.785em;
 }
 .text > div > h1{
 	font-size: 1.4em;
